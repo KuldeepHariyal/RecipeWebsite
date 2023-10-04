@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: #f0d297;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+    .popup{
+        width: 50vw;
+        height: 50vh;
+        background: #e8deca;
+    }
+    .popup .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popup img, h2, p{
+        text-align: center;
+    }
+    .popup h2{
+        font-size: 2rem;
+    }
+    .popup p{
+        font-size: 1.5rem;
+    }
+    .popup .image img{
+        width: 3rem;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="popup">
+            <div class="image">
+                <img src="./images/checkbox-fill.png" alt="">
+            </div>
+            <h2>Thank you</h2>
+            <p>Your Details has been submited</p>
+        </div>
+    </div>
+</body>
+</html>

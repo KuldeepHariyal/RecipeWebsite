@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Buddy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/chef.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloaderGif">
+            <img src="./images/cooking-pot.gif" alt="">
+        </div>
+    </div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+                <h1>Recipe Buddy</h1>
+            </div>
+            <div class="nav_menu">
+                <ul>
+                    <a href="#">
+                        <li>home</li>
+                    </a>
+                    <a href="#about">
+                        <li>about us</li>
+                    </a>
+                    <a href="#contact">
+                        <li>contact us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="search_box">
+                <form action="">
+                    <input type="text" name="" id="search-items" placeholder="search" oninput="search(); noButton();">
+                    <i class="ri-search-line"></i>
+                    <i class="ri-close-fill"></i>
+                </form>
+            </div>
+            <div class="menu_btn">
+                <i class="ri-search-2-line"></i>
+                <i class="ri-menu-line"></i>
+                <i class="ri-close-line"></i>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero_left">
+                <div class="hero_heading">
+                    <p>Welcome To</p>
+                    <h2>RECIPE BUDDY</h2>
+                    <p>Start cooking with us</p>
+                    <a href="#Recipes"><button>TRY RECIPES</button></a>
+                </div>
+            </div>
+            <div class="hero_right">
+                <video autoplay muted loop src="./images/animation_lm4p0qd8.mp4"></video>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="heading">
+            About US
+        </div>
+        <div class="about_container">
+            <div class="left">
+                <p>Welcome to Recipe Buddy, where culinary passion meets the digital realm! We are not just a website;
+                    we are a community of food enthusiasts, home cooks, and professional chefs brought together by our
+                    love for creating and savoring delightful dishes. Our platform is more than just a recipe sharing
+                    website; it's a food lover's haven where creativity, flavors, and cultures blend seamlessly.
+                    Founded with the vision of connecting people through the joy of cooking, Recipe Buddy began its
+                    journey as a humble idea: a place where seasoned chefs and aspiring cooks could come together to
+                    share their favorite recipes, culinary techniques, and kitchen adventures.</p>
+            </div>
+            <div class="right">
+                <div class="img">
+                    <img src="./images/cooking.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="items">
+        <div class="heading">
+            Most Loved items
+        </div>
+        <div class="item_container">
+            <a href="./Recipes/gulabjamun.html" target="_blank">
+                <div class="item">
+                    <div class="img">
+                        <img src="./images/pngwing.com (3).png" alt="">
+                    </div>
+                    <h2>Gulab Jammun</h2>
+                </div>
+            </a>
+            <a href="./Recipes/chickenBiryani.html" target="_blank">
+                <div class="item">
+                    <div class="img">
+                        <img src="./images/pngwing.com (5).png" alt="">
+                    </div>
+                    <h2>Biryani</h2>
+                </div>
+            </a>
+            <a href="./Recipes/momos.html" target="_blank">
+                <div class="item">
+                    <div class="img">
+                        <img src="./images/pngwing.com (2).png" alt="">
+                    </div>
+                    <h2>Momo's</h2>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <main id="Recipes" class="Recipe-container">
+        <div class="heading">
+            Try different Recipes
+        </div>
+        <div class="main_container" id="product-list">
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/palak paneer.png" alt="">
+                </div>
+                <h2>Palak Paneer</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>250 gm paneer</li>
+                    <li>2 bunches spinach</li>
+                    <li>Green chilli</li>
+                    <li>Oil</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/palak_paneer.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/mattar paneer.png" alt="">
+                </div>
+                <h2>Mattar Paneer</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>250 gm paneer</li>
+                    <li>1 cup Green peas</li>
+                    <li>Fresh Tomato</li>
+                    <li>Oil</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/mattar_paneer.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/dal makhani.png" alt="">
+                </div>
+                <h2>Dal Makhani</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Lentils</li>
+                    <li>cream</li>
+                    <li>Fenugreek Leaves</li>
+                    <li>Butter and Ghee</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/Dalmakhani.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/chicken masala.png" alt="">
+                </div>
+                <h2>Chicken Masala</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Chicken</li>
+                    <li>Onion</li>
+                    <li>Tomato</li>
+                    <li>Oil</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/chickenMasala.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/butter chicken.png" alt="">
+                </div>
+                <h2>Butter Chicken</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Boneless Chicken</li>
+                    <li>Plain yogurt</li>
+                    <li>Butter</li>
+                    <li>Tomato</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/ButterChicken.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/chicken biryani.png" alt="">
+                </div>
+                <h2>Chicken Biryani</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Chicken</li>
+                    <li>Basmati Rice</li>
+                    <li>saffron</li>
+                    <li>Garam masala</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/chickenBiryani.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/mutton curry.png" alt="">
+                </div>
+                <h2>Mutton Curry</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Mutton</li>
+                    <li>Ginger garlic paste</li>
+                    <li>Tomato</li>
+                    <li>Garam masala</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/muttonCurry.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/veg pulao.png" alt="">
+                </div>
+                <h2>Veg Pulao</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Basmati rice</li>
+                    <li>veggies</li>
+                    <li>Onion</li>
+                    <li>Cashews</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/vegPulao.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/rasgulla.png" alt="">
+                </div>
+                <h2>Raasgulla</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Milk</li>
+                    <li>Sugar</li>
+                    <li>Curd</li>
+                    <li>Water</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/rasgula.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/idli.png" alt="">
+                </div>
+                <h2>Idli</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Urad dal</li>
+                    <li>Idli rice</li>
+                    <li>Water</li>
+                    <li>salt</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/idli.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/gajar ka halwa.png" alt="">
+                </div>
+                <h2>Gajar ka halwa</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Carrot</li>
+                    <li>Ghee</li>
+                    <li>Sugar</li>
+                    <li>Milk</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/gajarHalwa.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/pngwing.com (3).png" alt="">
+                </div>
+                <h2>Gulab Jammun</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Jammun mix</li>
+                    <li>sugar</li>
+                    <li>Ghee</li>
+                    <li>Water</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/gulabjamun.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/pngwing.com (2).png" alt="">
+                </div>
+                <h2>Momo's</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Plain flour</li>
+                    <li>veggies</li>
+                    <li>Oil</li>
+                    <li>Water</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/momos.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="image">
+                    <img src="./images/noodles.png" alt="">
+                </div>
+                <h2>Noodels</h2>
+                <h3>Ingrident required</h3>
+                <ol>
+                    <li>Noodels</li>
+                    <li>Water</li>
+                    <li>Salt</li>
+                    <li>Onions</li>
+                </ol>
+                <div class="btn">
+                    <a href="./Recipes/noodels.html" target="_blank"><button>Recipe</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <div class="showMore-btn">
+                <button onclick="showMore()">Show more</button>
+            </div>
+            <div class="showLess-btn">
+                <button onclick="showLess()">Show less</button>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            Contact us
+        </div>
+        <div class="contact_container">
+            <form id="myForm">
+                <h2>Get in touch with us</h2>
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                <label for="country">Email id</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email id" required>
+
+                <label for="subject">Your Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+                    required></textarea>
+                <input type="submit" value="Submit" id="submitButton">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_row1">
+            <div class="iconBox instagram">
+                <i class="ri-instagram-fill"></i>
+            </div>
+            <div class="iconBox facebook">
+                <i class="ri-facebook-circle-fill"></i>
+            </div>
+            <div class="iconBox twitter">
+                <i class="ri-twitter-fill"></i>
+            </div>
+        </div>
+        <div class="footer_row2">
+            <div class="Fboxes">
+                <i class="ri-map-pin-2-fill"></i>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="Fboxes">
+                <i class="ri-phone-fill"></i>
+                <p>+91xxxxxxx</p>
+            </div>
+            <div class="Fboxes">
+                <i class="ri-mail-fill"></i>
+                <p>xyz@gmail.com</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
