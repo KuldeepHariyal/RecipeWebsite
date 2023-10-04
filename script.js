@@ -21,9 +21,7 @@ search_close.addEventListener("click", () => {
 
 const loader = document.querySelector(".preloader");
 window.addEventListener("load", () => {
-  setTimeout(() => {
     loader.style.display = "none";
-  }, 2000);
 });
 
 var initialItemCount = Math.ceil(
